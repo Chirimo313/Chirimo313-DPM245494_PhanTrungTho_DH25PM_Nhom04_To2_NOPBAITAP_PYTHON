@@ -71,8 +71,6 @@ else:
 
 # Hoán vị ma trận
 A_T = HoanVi(A)
-B_T = HoanVi(B)
+B_T = HoanVi(B) 
 XuatMaTran(A_T, "Hoán vị của A (Aᵀ)")
 XuatMaTran(B_T, "Hoán vị của B (Bᵀ)")
-
-
